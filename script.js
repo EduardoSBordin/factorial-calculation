@@ -49,5 +49,8 @@ calc();
 btnRemove.addEventListener('click', () => {
 
     localStorage.removeItem('num');
-    resultTxt1.innerHTML = '0';
+    resultTxt0.innerHTML = '';
+    resultTxt1.innerHTML = '';
+    resultTxt2.innerHTML = '';
+    resultTxt3.innerHTML = '';
 });
