@@ -28,11 +28,11 @@ function calc(){
         console.log(`O resultado de: ${i+1} x ${getFirstNum} : ${result}`);
 
         getFirstNum--;
-        resultTxt3.innerHTML += `<br>Resultado de: ${getFirstNum} x ${result} : ${getI * result} <br>`;
+        resultTxt3.innerHTML += `<br>Resultado de: ${getFirstNum} x ${result} = ${getI * result} <br>`;
         
     }
     
-   let getRes2 = resultTxt2.innerHTML = `<br><br>Resultado de: ${num.value} x ${num.value - 1} : ${getRes} <br>`;
+   let getRes2 = resultTxt2.innerHTML = `<br><br>Resultado de: ${num.value} x ${num.value - 1} = ${getRes} <br>`;
     // //-------------------------------------
     localStorage.setItem('res2', getRes2);
     let loGet = localStorage.getItem('res2');
