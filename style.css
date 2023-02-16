@@ -1,3 +1,11 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 body{
 
     margin: 0;
@@ -5,9 +13,9 @@ body{
 }
 #main{
 
-    background: rgb(105, 255, 105);
-    width: 500px;
-    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 420px;
+    height: auto;
     margin: auto;
     margin-top: 50px;
     padding: 30px;
@@ -17,18 +25,47 @@ body{
 }
 #inputs{
 
-    background: orange;
+    
     width: 400px;
     height: 50px;
-    margin-left: 50px;
     text-align: center;
     padding: 10px;
 }
 #resultInf{
-    background: purple;
+    background: rgba(128, 0, 128, 0);
     width: 400px;
     height: 300px;
-    margin-left: 50px;
     text-align: center;
     padding: 10px;
+    color: grey;
+}
+#num{
+
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    font-size: 14pt;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+button{
+    background: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 5px;
+    width: 80px;
+    height: 35px;
+    font-size: 14pt;
+    transition: 0.4s;
+    margin-left: 5px;
+}
+button:hover{
+    background: rgb(53, 53, 53);
+    transform: scale(1.1);
 }

@@ -53,4 +53,5 @@ btnRemove.addEventListener('click', () => {
     resultTxt1.innerHTML = '';
     resultTxt2.innerHTML = '';
     resultTxt3.innerHTML = '';
+    num.value = '';
 });
